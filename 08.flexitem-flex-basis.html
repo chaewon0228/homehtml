@@ -4,8 +4,6 @@
 	padding: 0;
 }
 .flexbox-container-row {
-	/* width: 1200px; */
-	/* width: 600px; */
 	margin: 20px auto;
 	outline: 1px solid green;
 	display: flex;
@@ -17,9 +15,7 @@
 }
 /*
 	flex-basis는 각 항목의 기본 크기를 지정하기 위해서 사용
-
 	여기서는 각 항목이 부모 사이즈의 50%, 30%, 20%만큼 크기를 차지하도록 하고 있음
-	(유연하게, 중요도에 따라 전체 크기가 변해야 하는 경우 유용하게 사용 가능!)
 */
 .flexbox-container-row .item:nth-child(1) { flex-basis: 50%; }
 .flexbox-container-row .item:nth-child(2) { flex-basis: 30%; }
